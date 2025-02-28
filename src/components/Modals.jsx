@@ -3,6 +3,7 @@ import ContactForm from "./ContactForm";
 import CrudApi from "./CrudApi";
 import CurdApp from "./CurdApp";
 import Modal from "./Modal";
+import ModalPortal from "./ModalPortal";
 import SelectAnidados from "./SelectAnidados";
 import SongSearch from "./SongSearch";
 
@@ -12,6 +13,8 @@ const Modals = () => {
   const [isOpen3, open3, close3] = useModal();
   const [isOpen4, open4, close4] = useModal();
   const [isOpen5, open5, close5] = useModal();
+
+  const [isOpenPortal, openPortal, closePortal] = useModal();
 
   return (
     <div>
@@ -45,6 +48,14 @@ const Modals = () => {
       <Modal isOpen={isOpen5} close={close5}>
         <SelectAnidados />
       </Modal>
+
+      <button onClick={openPortal}>Modal portal</button>
+      <ModalPortal isOpen={isOpenPortal} close={closePortal}>
+        <h3>Modal en portal</h3>
+        <p>
+          Cargo desde otro nodo, distinto del <code>div id=root</code>
+        </p>
+      </ModalPortal>
     </div>
   );
 };
