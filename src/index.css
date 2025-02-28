@@ -1,0 +1,43 @@
+form {
+  padding: 5px;
+}
+input,
+textarea {
+  display: block;
+  margin: 10px 0;
+  width: 50%;
+  padding: 2px 2px;
+  font-size: 0.75rem;
+  box-sizing: border-box;
+}
+textarea {
+  font-family: inherit;
+  resize: none;
+  min-height: 5rem;
+}
+input[type="submit"] {
+  appearance: none; /* Evita estilos predeterminados del navegador */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+form p {
+  font-weight: bolder;
+  color: rgb(120, 0, 0);
+  margin: 0;
+  margin-top: -10px;
+  font-size: 0.75rem;
+}
+.err {
+  border: 2px solid rgb(120, 0, 0);
+}
+form small.chars {
+  float: right;
+  margin-right: 50%;
+  margin-top: -10px;
+  font-weight: lighter;
+  font-size: 0.75rem;
+}
+.red {
+  color: rgb(240, 0, 0);
+}

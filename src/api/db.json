@@ -1,0 +1,49 @@
+{
+  "santos": [
+    {
+      "id": "1",
+      "name": "Seiya",
+      "constellation": "Pegasus"
+    },
+    {
+      "id": "2",
+      "name": "Shiryu",
+      "constellation": "Dragon"
+    },
+    {
+      "id": "3",
+      "name": "Hyoga",
+      "constellation": "Cygnus"
+    },
+    {
+      "id": "4",
+      "name": "Shun",
+      "constellation": "Andromeda"
+    },
+    {
+      "id": "5",
+      "name": "Ikki",
+      "constellation": "Phoenix"
+    },
+    {
+      "id": "6",
+      "name": "Mu",
+      "constellation": "Aries"
+    },
+    {
+      "id": "7",
+      "name": "Aldebaran",
+      "constellation": "Taurus"
+    },
+    {
+      "id": "8",
+      "name": "Saga",
+      "constellation": "Gemini"
+    },
+    {
+      "id": "9",
+      "name": "Deathmask",
+      "constellation": "Cancer"
+    }
+  ]
+}
